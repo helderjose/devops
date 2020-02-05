@@ -1,3 +1,6 @@
+/opt/devops-udemy
+
+
 Baixar apache-tomcat 8.5.16
 https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.16/bin/
 https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.16/bin/apache-tomcat-8.5.16.zip
