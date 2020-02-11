@@ -1,0 +1,90 @@
+https://jenkins.io/download/
+https://pkg.jenkins.io/redhat/
+
+No curso usou a 2.71
+https://pkg.jenkins.io/redhat/jenkins-2.71-1.1.noarch.rpm
+Deu erro na hora de abrir pelo instaldor do fedora", desinstalei mas
+o pacote continuou, aí usei por comando
+
+
+Por padrão roda na porta 8080
+
+Parar o Tomcat por causa da porta (para parar o tomcat olhe a pasta tomcat)
+
+
+--- instalacao jenkins -----
+Usei docker (olhar a pasta de docker)
+
+Tela: "Customize Jenkins"
+"select plugins to install" ->
+Na sessão "Build Tools" desmarque os seguinte:
+- Ant Plugin
+- Gradle Plugin
+Na sessão "Source Code Management" desmarque as seguintes:
+- Subversion Plug-in
+Na sessão "User Management and Security" desmarque as seguintes:
+- LDAP Plugin
+Clique em install
+
+Tela: "Create First Admin User"
+username: admin
+password: password
+full name: jenkinsadmin
+e-mail: jenkins@test.com (não existe foi só para finalizar o cadastro)
+Clique em "save and finish"
+
+
+
+
+
+
+---- tentativa de instalar o jenkins -------------
+
+sudo dnf install jenkins
+sudo systemctl status jenkins
+sudo systemctl stop jenkins
+sudo systemctl start jenkins
+localhost:8080
+vai aparecer a tela "Unlock Jenkins"
+copie o path exbido na tela, ex:
+/var/lib/jenkins/secrets/initialAdminPassword
+
+execute no terminal linux
+sudo more /var/lib/jenkins/secrets/initialAdminPassword
+copie a senha e cole na tela "Unlock Jenkins"
+
+Tela: "Customize Jenkins"
+"select plugins to install" ->
+Na sessão "Build Tools" desmarque os seguinte:
+- Ant Plugin
+- Gradle Plugin
+Na sessão "Source Code Management" desmarque as seguintes:
+- Subversion Plug-in
+Na sessão "User Management and Security" desmarque as seguintes:
+- LDAP Plugin
+Clique em install
+
+Tela: "Create First Admin User"
+username: admin
+password: password
+full name: jenkinsadmin
+e-mail: jenkins@test.com (não existe foi só para finalizar o cadastro)
+Clique em "save and finish"
+
+
+
+
+--- tentativa instalar o Jinkins ----
+Não deu certo, a página do jenkins fica branca
+Usei o jenkins.war no glassfish.
+Fazer deploy do jenkins.war no glassfish.
+http://localhost:8080/jenkins (a url tem que olhar no glassfish)
+
+vai aparecer a tela "Unlock Jenkins"
+copie o path exbido na tela, ex:
+/home/helder/.jenkins/secrets/initialAdminPassword
+
+execute no terminal linux:
+cat /home/helder/.jenkins/secrets/initialAdminPassword
+cole a saída do comando no navegador.
+

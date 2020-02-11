@@ -1,3 +1,5 @@
+source no ~/.profile_devops
+
 Apache Tomcat
 cd /opt/devops-udemy/apache-tomcat-8.5.16/bin && ./catalina.sh start
 cd /opt/devops-udemy/apache-tomcat-8.5.16/bin && ./catalina.sh stop

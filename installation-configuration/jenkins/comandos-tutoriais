@@ -1,0 +1,8 @@
+instalar jenkins
+https://www.hiroom2.com/2016/07/20/fedora-24-install-jenkins/
+
+sudo dnf install jenkins
+
+sudo systemctl stop jenkins
+sudo systemctl start jenkins
+
