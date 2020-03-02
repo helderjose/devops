@@ -21,3 +21,30 @@ export M2_HOME=/opt/devops-udemy/apache-maven-3.5.0
 export M2=$M2_HOME/bin
 # export MAVEN_OPTS="-Xms256m -Xmx2048m"
  export PATH=$PATH:$M2%
+
+
+ # Maven Security Setup
+Primeiro olhe o arquivo start-ambient.md para fazer o source o profile devops.
+
+Inicie o JFrog ARtifactory (para gerar os arquivos .xml, já tenho nos arquivos da sessão)
+http://localhost:8081
+Set Me Up -> libs-resease
+Set Me Up -> libs-snapshot
+
+Copie os arquivos .xml da pasta "arquivos-da-sessao" para ~/.m2
+
+Execute o comando
+mvn -emp password
+copie o hash gerado e coloque na tag "master" do ~/.m2/setting-security.xml
+
+Execute o comando
+mvn -ep password
+copie o hash gerado e coloque nas tags
+servers -> release -> password      <password>{*** Insert password here ***}</password>
+servers -> snapshow -> password
+do arquivo ~/.m2/settings.xml
+
+Execute o comand
+mvn help:describe
+vai fazer alguns downloads (vai dar erro no final, não tem problema), vai
+aparecer a pasta ~/.m2/repository
