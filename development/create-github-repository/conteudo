@@ -1,0 +1,22 @@
+Crie um repositório público no github chamado "devops-udemy"
+clique na opção de SSH e execute os seguintes comandos
+cd /dados/programacao-2
+mkdir devops-udemy
+cd mkdir devops-udemy
+echo "# devops-udemy" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:helderjose/devops-udemy.git
+git push -u origin master
+
+
+No site do github
+Abra o repositório -> Branch: master -> e crie a branch develop
+devops-udemy -> settings -> branches -> default branch -> coloque a develop como default -> update
+
+Protejer a master
+Branch protection rules -> rule ->
+Branch name pattern: master
+marque Require pull request reviews...
+marque Include administrators
