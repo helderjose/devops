@@ -1,0 +1,23 @@
+DevOps Git Project
+https://github.com/nandudemy/devops
+
+
+Gerar projeto:
+Obs: a pasta original tem o projeto gerado no curso, os
+passos a seguir gera o mesmo projeto.
+
+https://start.spring.io/
+
+Artifact coodinates
+Group: com.example
+Artifact: devops
+Description: DevOps Demo Project
+Packing: war
+
+Dependencies: web, Thymeleaf
+
+Generate Project.
+
+No projeto "devops-udemy", faça o seguinte:
+git ch develop
+git flow init
