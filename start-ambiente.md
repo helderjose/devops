@@ -29,3 +29,6 @@ http://localhost:8081
 usuário e senha padrão:
 admin
 password
+
+# Spring Tool Suite
+cd /opt/devops-udemy/sprint-tool-suite && ./SpringToolSuite4

@@ -1,0 +1,31 @@
+Faça download do Sprint Tool Suite, extraie e coloque na pasta
+/opt/devops-udemy
+
+execute:
+cd /opt/devops-udemy/sprint-tool-suite && ./SpringToolSuite4
+Coloque a pasta "/opt/devops-udemy/workspace-spring" como workspace
+
+No Sprint tool faça o seguinte:
+file -> imort -> pesquise por "existing" -> Existing Mave Projects -> next ->
+selecione a pasta do projeto maven do github "/opt/devops-udemy/github/devops-udemy" ->
+open -> finish
+
+window -> preferences -> pesquise por "save" -> java save actions ->
+marque as opções:
+- Perform the seletecd...
+- format source code.
+- additional actions.
+O resto pode deixar padrão.
+
+BD no projeto -> run as -> junit test
+Bd no projeto -> run as -> spring boot app
+clique no ícone "stop" do console para parar a aplicação
+
+arquivos que foram editados no vídeo
+src/main/resources/application.properties
+src/main/java/com/example/devopt/DevopsApplication.java
+
+Os passos a seguir foram feitos por causa de um bug na versão do curso.
+window -> preferences -> pesquise por "keys" -> keys ->
+filters -> desmarque "filter uncategorized commands" -> ok
+pesquise por "go symbol in file" -> selecione "go to symbo in file" -> unbind command -> apply and close
