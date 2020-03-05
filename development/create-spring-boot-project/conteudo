@@ -18,6 +18,12 @@ Dependencies: web, Thymeleaf
 
 Generate Project.
 
-No projeto "devops-udemy", faça o seguinte:
+No projeto "programacao-2/devops/devops-udemy", faça o seguinte:
+cd programacao-2/devops/devops-udemy
 git ch develop
 git flow init
+git flow feature start nv101_initial_landing_page
+git stu
+coloque os arquivos do projeto spring boot na pasta devops-udemy
+mvn clean
+
