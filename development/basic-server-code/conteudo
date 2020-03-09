@@ -1,0 +1,45 @@
+inicieo ambiente
+abra o sprint tool suite (sts)
+
+no sts:
+help -> install new software -> work with: "http://update.eclemma.org" ->
+add -> name: "Eclemma" -> add -> marque "EclEmma" -> next -> "vai pedir para reiniciar o sts"
+
+
+No projeto:
+BD em -> src/test/java -> coverage as -> junit test -> "no console dá para
+navegar até a classe que falta coverage no código"
+
+src/main/java
+crie o package com.example.devops.web
+
+src/test/java
+crie o package com.example.devops.web
+
+em com.example.devops.web crie a classe WelcomeController.java
+
+em src/main/resources/templates crie o index.html
+
+na pasta de teste no pacote web BD -> new juni test ->
+Name: WelcomeControllerTest
+Class under test: WelcomeController
+next -> "marque" welcome model
+finish
+
+BD na classe de teste -> run as -> junit test
+BD na classe de teste -> coverage as ->  junit test
+
+BD no projeto -> run as -> spring boot app
+http://localhost:8088/
+
+
+
+Coloque o seguinte conteudo no pom.xml do projeto
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-devtools</artifactId>
+    <optional>true</optional>
+</dependency>
+
+pare o server e execute com spring boot app novamente para baixar a nova dependência,
+agora, quando alterar o html, basta dar F5 na página.
