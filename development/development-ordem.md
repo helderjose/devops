@@ -5,8 +5,9 @@ Development (Code, Test, Review and Merge)
 1. create-spring-boot-project
 1. spring-tool-suite
 1. basic-server-code
+1. basic-client-code
 
 
 estou no
-1. basic-client-code
+1. configure-scm-artifactory
 
