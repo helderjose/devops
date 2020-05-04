@@ -1,2 +1,28 @@
 # Configure for SCM and Artifactory
 
+
+Maven Security Settings
+https://maven.apache.org/guides/mini/guide-encryption.html
+
+# pom.xml
+é como o pom.xml ficou no fim do vídeo.
+
+# Passos
+- copie o conteúdo do "notes-maven-scm-settings.txt";
+- altere as linhas do github (repositório do projeto);
+- reinicie o artifactory (jfrog no terminal);
+
+No repositório execute
+- push das alterações no repositório;
+
+mvn clean package deploy  // já configuramos as senhas no .m2
+mvn clean install -U // execute se der erro em alguma dependência no comando acima.
+
+
+No jfrog
+Acesse a página no JFrog (olhe o arquivo start-ambiente.md);
+Artifacts (menu lateral) -> libs-snapshot-local ->
+Virtual Repository Associations (clique no link e navegue nos links da página)
+a url vai ficar assim "http://localhost:8081/artifactory/libs-snapshot/com/example/devops/"
+
+
