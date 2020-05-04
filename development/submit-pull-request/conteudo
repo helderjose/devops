@@ -1,2 +1,12 @@
 # Commit changes and submit pull request
 
+Nessa lissão só abre um pull request (merge request)
+da branch feature para a branch develp.
+
+
+Vá no github do repositório "devops-udemy" -> new pull request ->
+base: develop
+compare: feature que estamos trabalhando
+escreva uma mensagem no campo -> create pull request
+
+
