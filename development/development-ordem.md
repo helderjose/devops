@@ -6,8 +6,8 @@ Development (Code, Test, Review and Merge)
 1. spring-tool-suite
 1. basic-server-code
 1. basic-client-code
+1. configure-scm-artifactory
 
 
 estou no
-1. configure-scm-artifactory
-
+1. submit-pull-request
