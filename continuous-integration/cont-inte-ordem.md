@@ -1,7 +1,7 @@
 Continuous Integration and Continuous Deploy
 
+1. ssh-for-jenkins
 
 
 estou no:
-1. ssh-maven-for-jenkins
-
+1. install-jenkins-plugins

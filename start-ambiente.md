@@ -27,6 +27,7 @@ pass: tomcat
 # Jfrog
 não use o ~/.profile_devops nesse terminal.
 cd /opt/devops-udemy/artifactory-oss-5.4.5/bin && ./artifactory.sh
+ctrl + c para parar
 http://localhost:8081
 usuário e senha padrão:
 admin
