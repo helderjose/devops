@@ -1,0 +1,19 @@
+# Jenkins Plugin Basic
+
+ssh -T git@github.com
+
+acesse o jenkins
+http://localhost:8090/
+
+create new job
+
+entrer an item name: devops
+Maven project -> ok
+
+deixe igual ao jenkins-configuracao.png
+apply - save
+
+
+página home do jenkins -> build with parameters // vai ter as branches listadas
+selecione "develop" -> build
+clique no build em execução -> console output

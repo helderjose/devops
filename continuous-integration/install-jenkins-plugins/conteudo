@@ -1,2 +1,35 @@
 # Install Jenkins Plugins
 
+obs: Estou rodando o jenkins do docker, tenho que colocar o jdk no docker.
+M2_HOME=/opt/devops-udemy/apache-maven-3.5.0
+
+
+Passo: ------------------------------------------
+http://localhost:8090
+Olhar arquivo start-ambiente.md
+
+
+manage jenkins -> global tool configuration
+jdk
+  name: JAVA
+  Install automatically (desmarcar)
+  JAVA_HOME: /var/jenkins_home/jdk/jdk1.8.0_241   // /opt/jenkins_home/jdk/jdk1.8.0_241 (no host)
+
+maven:
+  name: maven
+  MAVEN_HOME: /var/jenkins_home/apache-maven-3.5.0
+  Install automatically: (desmarcar)
+
+
+apply   save
+
+Passo: ------------------------------------------
+manage jenkins -> manage plugins -> available -> filter:
+conditional buildStep  // apenas marque e pesquise o próximo, depois vai instalar tudo de uma vez
+deploy to container plugin -> install without restart
+
+manage jenkins -> manage plugins -> available -> filter:
+environment injector  // install without restart
+git parameter  // install withou restart
+marque "Restart Jenkins when installation is complete and no jobs are running"
+
