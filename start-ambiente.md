@@ -2,8 +2,11 @@
 systemctl start docker
 docker container ls -a
 docker container start <CONTAINER ID> olhe o id do jenkins (se o conteiner do jenkins não existr use run no lugar do start)
-docker container start 65935d56656f
-docker container stop 65935d56656f
+
+container que estou usando para fazer o curso: 61e878e13e79
+
+docker container start 61e878e13e79
+docker container stop 61e878e13e79
 http://localhost:8090
 user: admin
 pass: password

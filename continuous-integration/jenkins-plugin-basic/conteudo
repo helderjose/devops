@@ -13,7 +13,18 @@ Maven project -> ok
 deixe igual ao jenkins-configuracao.png
 apply - save
 
-
-página home do jenkins -> build with parameters // vai ter as branches listadas
+# build
+página home do jenkins -> devops (job) -> build with parameters // vai ter as branches listadas
 selecione "develop" -> build
 clique no build em execução -> console output
+
+# ver configurações do job
+jenkins home -> deveops (job) -> configure  // http://localhost:8090/job/devops/configure
+
+
+# Plugins Instalado no Jenkins
+Conditional Buildstep Plugin
+Deploy to container Plugin
+Environment injector Plugin
+Git parameter Plugin
+gitHub Branch Source Plugin
