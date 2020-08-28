@@ -1,0 +1,5 @@
+Hora - timezone
+https://www.jenkins.io/doc/book/using/change-time-zone/
+
+localhost:8090/systemInfo
+jenkins_server -> people -> [seu usuário] -> configure -> time zone

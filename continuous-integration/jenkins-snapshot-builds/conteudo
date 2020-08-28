@@ -1,3 +1,18 @@
-jenkins home -> devops (job) -> configure
+obs: como coloquei a .m2 no container do docker tive que alterar
+o localhost para o ip do meu notebook,
+alterei no pom.xml do repositório tbm.
 
+
+jenkins home -> devops (meu job) -> configure
+
+passo: general.png
 general (aba) -> Git parameter -> add -> "choice parameter"
+
+passo: postSteps-conditional.png
+passo: postSteps-step-to-run-if-met.png
+passo: postSteps-invoke.png
+salve as alterações
+
+selecione o job -> build with parameters -> clique no build history -> console output
+
+http://localhost:8081 -> artifacts -> libs-snapshot-local (o pacote vai aparecer aqui)

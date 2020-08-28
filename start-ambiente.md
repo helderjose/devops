@@ -39,3 +39,10 @@ cd /opt/devops-udemy/sprint-tool-suite && ./SpringToolSuite4
 
 # repositório
 cd /opt/devops-udemy/github/devops-udemy
+
+
+
+obs:
+Tudo que eu fizer na .m2 do host tenho que colocar na /opt/jenkins-docker/MEU-CONTAINER/jenkins_home/.m2
+
+Usar o ip do notebook no pom.xml do repositório e na .m2 do /opt/container-jenkins

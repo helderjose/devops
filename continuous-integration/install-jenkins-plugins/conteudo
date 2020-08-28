@@ -1,7 +1,18 @@
 # Install Jenkins Plugins
 
-obs: Estou rodando o jenkins do docker, tenho que colocar o jdk no docker.
+
+------------------------
+obs: Estou rodando o jenkins do docker, então, coloquei o jdk
+e a .m2 do meu host e coloquei na pasta do container:
+
+container: /opt/jenkins-docker/server-pleno-2/jenkins_home
+jdk: /opt/jenkins-docker/server-pleno-2/jenkins_home/jdk
+m2: /opt/jenkins-docker/server-pleno-2/jenkins_home/.m2
+
+entrei no terminal do container e declarei as variáveis de ambiente.
+
 M2_HOME=/opt/devops-udemy/apache-maven-3.5.0
+----------------------------------
 
 
 Passo: ------------------------------------------
