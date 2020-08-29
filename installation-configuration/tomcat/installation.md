@@ -22,8 +22,13 @@ $ bin > sudo chmod +x ./*
 $ bin > ./catalina.sh start
 $ bin > tail ../logs/catalina.out
 
+
+crie o arquivo manager.xml para permitir acesso de outro computador (olhar a pasta diversos/apache-tomcat)
+
 http://localhost:8080/
 
 manager app
 user: manager
 pass: tomcat
+
+

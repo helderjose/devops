@@ -1,0 +1,16 @@
+deploy no tomcat
+
+jenkins_server -> job -> configure -> post steps ->
+
+-> add post-build action -> deploy war/ear to a container
+war/ear files: **/*.war
+context path: devops
+containers: escolha a versão do seu tomcat
+  manger user name: jenkins   // foi configurado na aula de instalação e configuração do tomcat
+  manager password: jenkins
+  tomcat url: http://localhost:8080   // tive que colocar o ip do meu notebook
+.
+
+rode o job (branch develop).
+acesse: http://localhost:8080/devops
+
