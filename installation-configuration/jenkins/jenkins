@@ -4,7 +4,10 @@ https://pkg.jenkins.io/redhat/
 No curso usou a 2.71
 https://pkg.jenkins.io/redhat/jenkins-2.71-1.1.noarch.rpm
 Deu erro na hora de abrir pelo instaldor do fedora", desinstalei mas
-o pacote continuou, aí usei por comando
+o pacote continuou, aí usei por comando.
+
+Tentei instalar o Jenkins 2.71 usando docker, dá falha na hora de instalar os plugins
+no Jenkins, pede para atualizar.
 
 
 Por padrão roda na porta 8080

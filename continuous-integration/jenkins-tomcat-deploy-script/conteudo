@@ -1,0 +1,14 @@
+
+obs: não consegui fazer essa aula por causa da
+versão do jenkins, não encontrei as opções usadas.
+
+http://localhost:8090/
+
+jenkins -> job -> configure ->
+general -> add parameter -> choice parameter (general-parameter.png)
+
+build trigger
+
+ordem dos prints
+1. general-parameter.png
+1.

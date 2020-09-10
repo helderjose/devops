@@ -1,0 +1,12 @@
+Release Code to QA from Tag
+
+
+Não fiz, apenas assisti.
+
+
+- Cria outra instalação do tomcat para ser o ambiente de Q.A.
+  Instalação igual a primeira só que em outra porta.
+  Altera o arquivo server.xml
+
+- jenkinx
+  criou uma view

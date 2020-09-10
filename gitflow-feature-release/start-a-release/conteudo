@@ -1,0 +1,7 @@
+https://nvie.com/posts/a-successful-git-branching-model/
+
+Apenas assisti ao vídeo, não fiz.
+
+- mude para a branch develop, dê um pull,
+- alterou o pom.xml do projeto (1.1.0-SNAPSHOT)
+- rodou o job

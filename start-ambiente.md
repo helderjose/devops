@@ -13,7 +13,7 @@ pass: password
 
 
 # Apache Tomcat
-source ~/.profile_devops
+source ~/.profile_devops &&
 cd /opt/devops-udemy/apache-tomcat-8.5.16/bin && ./catalina.sh start
 cd /opt/devops-udemy/apache-tomcat-8.5.16/bin && ./catalina.sh stop
 cd /opt/devops-udemy/apache-tomcat-8.5.16/bin && tail ../logs/catalina.out
@@ -26,7 +26,7 @@ pass: tomcat
 
 
 # Jfrog
-source ~/.profile_devops
+source ~/.profile_devops &&
 cd /opt/devops-udemy/artifactory-oss-5.4.5/bin && ./artifactory.sh
 ctrl + c para parar
 http://localhost:8081
