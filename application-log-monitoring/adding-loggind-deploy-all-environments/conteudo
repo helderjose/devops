@@ -1,0 +1,4 @@
+Gravação de log, usa um plugin do maven.
+
+pom.xml do projeto:
+Coloca uma dependência do spring boot para gerar o log

@@ -1,10 +1,12 @@
 1. installation-configuration - github.com/nvie/gitflow/wiki/intallation
 1. development
 1. continuous-integration
+1. gitflow-feature-release
+1. gitflow-hotfix-release - só assisti
 
 
 estou no
-1. gitflow-feature-release
+1. application-log-monitoring
 
 
 Estou usando a pasta githbub da
@@ -20,6 +22,13 @@ pasta .m2 do container no pom.xml do repositório e etc.
 Tutoriais
 https://www.jenkins.io/doc/tutorials/build-a-node-js-and-react-app-with-npm
 https://www.jenkins.io/doc/pipeline/tour/getting-started/
+
+
+
+Fazer
+Um projeto front-end com vue ou react.
+jenkins
+deploy no nginx
 
 
 Fazer quanto tiver um pc que aguente:
